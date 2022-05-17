@@ -1,6 +1,6 @@
 {
   "name": "css2atomic",
-  "version": "1.0.0",
+  "version": "1.0.15",
   "main": "./bin/app.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -26,5 +26,4 @@
     "single-line-log": "^1.1.2",
     "to-css": "^1.2.1"
   }
- 
 }

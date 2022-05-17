@@ -1,0 +1,30 @@
+{
+  "name": "css2atomic",
+  "version": "1.0.0",
+  "main": "./bin/app.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node    ./bin/app.mjs",
+    "run-chrome-dev": "node --inspect-brk   ./bin/app.mjs"
+  },
+  "bin": {
+    "css2atomic": "./bin/run.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "app-root-path": "^3.0.0",
+    "camelcase-css": "^2.0.1",
+    "cheerio": "^1.0.0-rc.10",
+    "colors": "^1.4.0",
+    "glob": "^8.0.3",
+    "inquirer": "^8.2.4",
+    "jsonc": "^2.0.0",
+    "postcss": "^4.0.0",
+    "single-line-log": "^1.1.2",
+    "to-css": "^1.2.1"
+  }
+ 
+}
